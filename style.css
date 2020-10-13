@@ -1,31 +1,68 @@
 html{
-    background-color: white;
+    background-color: rgb(218, 218, 218);
+}
+header{
+    background-image: url("img/tareaToti6.jpg");
+    background-size: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    border-bottom: 2px black solid;
+
+}
+
+body{
+    margin-top: 16%;
+    background-color: back;
 }
 h1{
     font-family: 'Lobster', cursive;
     font-size: 70px;
+    color: rgb(255, 253, 253);
+    text-align: center;
 }
+
 
 .barra{
     display: inline-block;
-    background: rgb(199, 198, 198);
-    color: black;
+    background:  #810c33;
+    color: white;
     padding: 10px 30px;
     text-decoration: none;
+    
 }
 
 .barra:hover{
-    background: rgb(255, 211, 217);
+    background:rgb(199, 198, 198);
+    color: black;
 }
 
 nav{
     text-align: right;
 }
+ul{
+    margin-top: 15.5%;
+    text-align: center;
+}
+.alinear{
+    margin-top: 5%;
+    text-align: center;
+    display: inline-block;
+    border: content-box;
+    
+}
 
-body{
-    background:rgb(223, 223, 223);
+.circular{
+    background-color: rgb(233, 232, 232);
+    margin-right: 20px;
+    border-top: 50%;
+    border: black solid;
+    border-radius: 50px;
 }
 .contacto{
+    margin-left: 20%;
+    margin-right: 20%;
     border: 1px solid #CED5D7;
     border-radius: 6px;
     padding: 45px 45px 20px;
@@ -34,6 +71,14 @@ body{
     box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;
 }
 .contacto input[type='text'], .contacto textarea{
+    padding: 7px 6px;
+    width: 294px; /* una longitud definida */
+    border: 1px solid #CED5D7;
+    resize: none; /* esta propiedad es para que el textarea no sea redimensionable */
+    box-shadow:0 0 0 3px #EEF5F7;
+    margin: 5px 0;
+}
+.contacto input[type='email'], .contacto textarea{
     padding: 7px 6px;
     width: 294px; /* una longitud definida */
     border: 1px solid #CED5D7;
@@ -66,4 +111,11 @@ body{
     background: #cfe6ef;
     background: -moz-linear-gradient(top, #cfe6ef 0%, #edfcff 100%);
     background: -webkit-linear-gradient(top, #cfe6ef 0%,#edfcff 100%);
+}
+.circular:hover{
+    border:  #810c33 solid;
+}
+
+.item{
+    align-self: auto
 }

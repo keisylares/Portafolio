@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     </style>
     <meta charset="UTF-8">
@@ -8,32 +9,58 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
-        <h1>Keisy Lares Desing</h1>
+        <h1>Keisy Lares Design</h1>
         <nav>
             <a href="#" class="barra">Conoceme</a>
             <a href="#" class="barra">Trabajos</a>
             <a href="#" class="barra">Diseño grafico</a>
-            <a href="#" class="barra">Comntacto</a>
+            <a href="#" class="barra">Contacto</a>
         </nav>
-        <img  src="img/tareaToti6.jpg" width="100%" height="400">
     </header>
     <main>
-    
-    <div>
-        <h3>Contacto</h3>
-        <form class='contacto'>
-            <label>Tu Nombre:</label><input type='text' value=''>
-            <label>Tu Email:</label><input type='text' value=''>
-            <label>Asunto:</label><input type='text' value=''>
-            <label>Mensaje:</label><textarea rows='6'></textarea>
-            <input type='submit' value='Envia Mensaje'>
-    </div>
+        <ul>
+            <li class="alinear">
+                <img class="circular" src="img/undraw_wireframing_nxyi.svg" width="300" height="200" alt="">
+                <h2>Web design</h2>
+            </li>
+            <li class="alinear">
+                <img class="circular" src="img/undraw_icon_design_qvdf.svg" width="300" height="200" alt="">
+                <h2>Graphic Desing</h2>
+            </li>
+            <li class="alinear">
+                <img class="circular" src="img/undraw_Marketing_re_7f1g.svg" width="300" height="200" alt="">
+                <h2>Marketing Digital</h2>
+            </li>
+        </ul>
         
+        <section> 
+            <form method="post">
+                <div> 
+                   <label for="name">Nombre:</label>
+                   <input type="text" id="name" name="user_name">
+                </div>
+                <div>
+                   <label for="mail">Correo electrónico:</label>
+                   <input type="email" id="mail" name="user_mail">
+                </div>
+                <div>
+                   <label for="msg">Mensaje:</label>
+                   <textarea id="msg" name="user_message" rows="10"></textarea>
+                </div>
+                <div>
+                    <button type="submit">Envíe su mensaje</button>
+                </div>
+               </form>
+
+        </section>
     </main>
+    <footer>
 
-
-    
+        <p> &copy; Keisy Lares </p>
+    </footer>
 </body>
+
 </html>
